@@ -1,5 +1,7 @@
 body{
     font-family: 'Balsamiq Sans';
+    margin:0;
+    padding:0;
 }
 
 /*Estilos barra navegación*/
@@ -9,11 +11,13 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height:50px;
 }
 
 .nav-title{
     margin:10px;
-    color:white;
+    color:rgb(224, 224, 224);
+    padding-left:30px;
 }
 .nav-links{
     display:flex;
@@ -33,7 +37,7 @@ li{
 }
 .active{
     font-weight: bold;
-    color: white;
+    color: rgb(224, 224, 224);
 }
 a{
     color:silver;
@@ -43,8 +47,8 @@ a{
 
 /*Estilos tarjeta de usuario*/
 .contenedorPrincipal{
-    border: 2px solid rgb(160, 160, 160);
-    width: 650px;
+    border: 3px solid rgb(202, 187, 187);
+    margin-bottom:20px;
 }
 .header{
     background-color: rgb(4, 160, 160);
@@ -76,6 +80,10 @@ a{
 .ciudad, .linkEditar{
     vertical-align: 7px;
 }
+.linkEditar{
+    color:rgb(24, 123, 185);
+    text-decoration: underline;
+}
 .skillset{
     margin-bottom: 5px;
 }
@@ -84,3 +92,105 @@ a{
 }
 
 /*Estilos otros cuadros*/
+.contenido{
+    display:flex;
+    justify-content:center;
+    padding-top: 20px;
+}
+
+.cuadro1,.cuadro2,.cuadro3{
+    padding:0;
+    border: 3px solid rgb(202, 187, 187);
+}
+.sideBarLeft{
+    width: 400px;
+    padding-left: 30px;
+    margin-right: 20px;
+}
+.sideBarRight{
+    width: 200px;
+    height:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titleCuadro,.textTitleCuadro1{
+    height:45px;
+    color:rgb(224, 224, 224);
+    background-color:rgb(53, 49, 49) ;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 14px;
+    padding-right:10px;
+}
+.textTitleCuadro1{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-left: 20px;
+}
+.nombreCurso,.periodo,.programas{
+    padding-left:20px;
+}
+.periodo{
+    color:rgb(175, 159, 159);
+}
+.circleCuadro{
+    color:black;
+    background-color:rgb(202, 199, 199) ;
+    margin-left:10px;
+    border-radius:50%;
+    padding:3px;
+}
+.circleCuadro2{
+    width:16px;
+    text-align: center;
+}
+.cuadro2{
+    margin-bottom:20px;
+}
+.lineRequest{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.usuarios{
+    width:120px;
+    display:flex;
+    flex-direction: row;
+    margin-bottom:4px;
+}
+.nameUser{
+    margin-left:10px;
+    padding-top:2px;
+    font-size: 15px;
+}
+.smallUserIcon{
+    width:20px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.sign{
+    width:20px;
+}
+.cuadro3{
+    display:flex;
+    flex-direction: column;
+}
+.viewMore{
+    border-top: 3px solid rgb(202, 187, 187);
+    padding:7px;
+    color:rgb(24, 123, 185);
+    text-decoration: underline;
+}
+.requests,.conections,.viewMore{
+    margin-top:10px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+.nombreCurso,.programas,.periodo{
+    margin-top:10px;
+    margin-bottom: 10px;
+}

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Tarjeta de usuario</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,55 +12,142 @@
         <link href="./css/styles.css" rel="stylesheet" />
     </head>
     <body>
-        
         <div class="nav">
-            <h1 class="nav-title">Perfil</h1>
+            <h1 class="nav-title">Profile</h1>
             <ul class="nav-links">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#" class="active">Mi Perfil</a></li>
-                <li><a href="#">Encontrar conexiones</a></li>
-                <li><button class="btn">Cerrar sesión</button></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+                <li><button class="btn">Sign Out</button></li>
             </ul>
         </div>
-        <div class="sideBarLeft">
-            <div class="contenedorPrincipal">
-                <div class="header">
-                    <img src="./icons/user-circle.png" alt="Imagen default de usuario"/>
+        <div class="contenido">
+            <div class="sideBarLeft">
+                <div class="contenedorPrincipal">
+                    <div class="header">
+                        <img src="./icons/user-circle.png" alt="Imagen default de usuario"/>
+                    </div>
+                    <div class="tarjetaInformacion">
+                        <h2 class="nombre">
+                            Jane Doe
+                        </h2>
+                        <div class="ubicacion">
+                            <img class="iconoUbicacion" src="./icons/map-marker.png" alt="Simbolo de ubicacion"/> 
+                            <span class="ciudad">
+                                Seattle
+                            </span>
+                        </div>
+                        <div class="skills">
+                            <p class="skillset">
+                                Developer | Engineer | Problem Solver
+                            </p>
+                            <p class="tituloUniversitario">
+                                Master of shadows and the Internet!
+                            </p>
+                        </div>
+                        <div class="editarPerfil">
+                            <img class="iconoConfiguracion" src="./icons/gear.png" src="Icono de configuracion"/> 
+                            <a class="linkEditar" href="#">
+                                edit profile
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="tarjetaInformacion">
-                    <h2 class="nombre">
-                        Jane Doe
-                    </h2>
-                    <div class="ubicacion">
-                        <img class="iconoUbicacion" src="./icons/map-marker.png" alt="Simbolo de ubicacion"/> 
-                        <span class="ciudad">
-                            Seattle
+                <div class="cuadro1">
+                    <div class="textTitleCuadro1">
+                        Education
+                    </div>
+                    <div class="bodyCuadro1">
+                        <h3 class="nombreCurso">
+                            Coding Dojo - Full Stack Bootcamp
+                        </h3>
+                        <h5 class="periodo">
+                            Dec 2019 - Mar 2020
+                        </h5>
+                        <h5 class="programas">
+                            Triple black belt in Python, MERN, and C#...
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="sideBarRight">
+                <div class="cuadro2">
+                    <div class="titleCuadro">
+                        <span class="circleCuadro circleCuadro2">
+                            2
+                        </span>
+                        <span class="textTitleCuadro">
+                            Connection Requests
                         </span>
                     </div>
-                    <div class="skills">
-                        <p class="skillset">
-                            Developer | Engineer | Problem Solver
-                        </p>
-                        <p class="tituloUniversitario">
-                            Master of shadows and the Internet!
-                        </p>
-                    </div>
-                    <div class="editarPerfil">
-                        <img class="iconoConfiguracion" src="./icons/gear.png" src="Icono de configuracion"/> 
-                        <a class="linkEditar" href="#">
-                            edit profile
-                        </a>
+                    <div class="requests">
+                        <div class="lineRequest">
+                            <div class="usuarios">
+                                <img class="smallUserIcon" src="icons\user-circle.png"/>
+                                <span class="nameUser">
+                                    Todd E
+                                </span>
+                            </div>
+                            <div class="accept&close">
+                                <img class="sign" src="icons\accept-circle.png"/>
+                                <img class="sign" src="icons\close-circle.png"/>
+                            </div>
+                        </div>
+                        <div class="lineRequest">
+                            <div class="usuarios">
+                                <img class="smallUserIcon" src="icons\user-circle.png"/>
+                                <span class="nameUser">
+                                    Phil K
+                                </span>
+                            </div>
+                            <div class="accept&close">
+                                <img class="sign" src="icons\accept-circle.png"/>
+                                <img class="sign" src="icons\close-circle.png"/>
+                            </div>
+                        </div>
                     </div>
                 </div>
+    
+                <div class="cuadro3">
+                    <div class="titleCuadro">
+                        <span class="circleCuadro">
+                            500+
+                        </span>
+                        <span class="textTitleCuadro">
+                            Your Conections
+                        </span>
+                    </div>
+                    <div class="conections">
+                        <div class="usuarios">
+                            <img class="smallUserIcon" src="icons\user-circle.png"/>
+                            <span class="nameUser">
+                                Adrian D
+                            </span>
+                        </div>
+                        <div class="usuarios">
+                            <img class="smallUserIcon" src="icons\user-circle.png"/>
+                            <span class="nameUser">
+                                Anne J
+                            </span>
+                        </div>
+                        <div class="usuarios">
+                            <img class="smallUserIcon" src="icons\user-circle.png"/>
+                            <span class="nameUser">
+                                Alayne T
+                            </span>
+                        </div>
+                        <div class="usuarios">
+                            <img class="smallUserIcon" src="icons\user-circle.png"/>
+                            <span class="nameUser">
+                                Arry Y
+                            </span>
+                        </div>     
+                    </div>
+                    <a class="viewMore" href="#">
+                        View More
+                    </a>
+                </div>
             </div>
-            <div class="cuadro3">
-            </div>
-        </div>
-        <div class="sideBarRight">
-            <div class="cuadro1">
-            </div>
-            <div class="cuadro2">
-            </div>
-        </div>
+        </div>      
     </body>
 </html>
