@@ -8,39 +8,59 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Island+Moments&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Spline+Sans:wght@300&display=swap" rel="stylesheet">
         <link href="./css/styles.css" rel="stylesheet" />
     </head>
     <body>
-        <div class="contenedorPrincipal">
-            <div class="header">
-                <img src="./icons/user-circle.png" alt="Imagen default de usuario"/>
+        
+        <div class="nav">
+            <h1 class="nav-title">Perfil</h1>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#" class="active">Mi Perfil</a></li>
+                <li><a href="#">Encontrar conexiones</a></li>
+                <li><button class="btn">Cerrar sesión</button></li>
+            </ul>
+        </div>
+        <div class="sideBarLeft">
+            <div class="contenedorPrincipal">
+                <div class="header">
+                    <img src="./icons/user-circle.png" alt="Imagen default de usuario"/>
+                </div>
+                <div class="tarjetaInformacion">
+                    <h2 class="nombre">
+                        Jane Doe
+                    </h2>
+                    <div class="ubicacion">
+                        <img class="iconoUbicacion" src="./icons/map-marker.png" alt="Simbolo de ubicacion"/> 
+                        <span class="ciudad">
+                            Seattle
+                        </span>
+                    </div>
+                    <div class="skills">
+                        <p class="skillset">
+                            Developer | Engineer | Problem Solver
+                        </p>
+                        <p class="tituloUniversitario">
+                            Master of shadows and the Internet!
+                        </p>
+                    </div>
+                    <div class="editarPerfil">
+                        <img class="iconoConfiguracion" src="./icons/gear.png" src="Icono de configuracion"/> 
+                        <a class="linkEditar" href="#">
+                            edit profile
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="tarjetaInformacion">
-                <h2 class="nombre">
-                    Jane Doe
-                </h2>
-                <div class="ubicacion">
-                    <img class="iconoUbicacion" src="./icons/map-marker.png" alt="Simbolo de ubicacion"/> 
-                    <span class="ciudad">
-                        Seattle
-                    </span>
-                </div>
-                <div class="skills">
-                    <p class="skillset">
-                        Developer | Engineer | Problem Solver
-                    </p>
-                    <p class="tituloUniversitario">
-                        Master of shadows and the Internet!
-                    </p>
-                </div>
-                <div class="editarPerfil">
-                    <img class="iconoConfiguracion" src="./icons/gear.png" src="Icono de configuracion"/> 
-                    <a class="linkEditar" href="#">
-                        edit profile
-                    </a>
-                </div>
+            <div class="cuadro3">
             </div>
         </div>
-        
+        <div class="sideBarRight">
+            <div class="cuadro1">
+            </div>
+            <div class="cuadro2">
+            </div>
+        </div>
     </body>
 </html>
